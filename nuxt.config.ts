@@ -8,6 +8,10 @@ export default defineNuxtConfig({
     preset: 'static'
   },
 
+  app: {
+    baseURL: '/WorkGroup/' // 🔥 สำคัญมาก
+  },
+
   build: {
     transpile: ['vuetify'],
   },
